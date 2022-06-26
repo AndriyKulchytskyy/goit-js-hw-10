@@ -10,6 +10,13 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  background-color: lightblue;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 #search-box {
@@ -17,4 +24,34 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+}
+
+.country-item__name {
+  margin: 0;
+  font-size: 15px;
+}
+
+.country-item__flag {
+  width: 22px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.country-info__flag {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.country-info__name {
+  font-size: 30px;
+  font-weight: 700;
 }
